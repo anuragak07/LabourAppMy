@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "776878085031",
+    "project_id": "chatapp-5712d",
+    "storage_bucket": "chatapp-5712d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776878085031:android:e7cc168fcd620b8bdd9c82",
+        "android_client_info": {
+          "package_name": "com.masai.labourapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776878085031-huq5jindnvcrjl8dcl3kj8mlpqbervhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjRBaMFXS2fePICy_gyuySl1aSfEf3c98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776878085031-huq5jindnvcrjl8dcl3kj8mlpqbervhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
