@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/_15sdp"
+
+    android:background="#36D1CB"
     tools:context=".Login">
 
     <TextView
@@ -17,6 +18,7 @@
         android:text="@string/Welcome_to_Roido"
         android:textIsSelectable="false"
         android:textSize="@dimen/_30sdp"
+        android:layout_margin="@dimen/_15sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,6 +26,8 @@
         android:id="@+id/welcomeImage"
         android:layout_width="@dimen/_220sdp"
         android:layout_height="@dimen/_220sdp"
+        android:src="@drawable/capicon"
+        android:layout_margin="@dimen/_15sdp"
 
         app:layout_constraintTop_toBottomOf="@+id/welcome"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,6 +38,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/email_or_phone_number"
         android:padding="@dimen/_6sdp"
+        android:layout_margin="@dimen/_15sdp"
         android:background="@drawable/email_box"
         app:layout_constraintTop_toBottomOf="@+id/welcomeImage"/>
     <EditText
@@ -45,6 +50,7 @@
         android:background="@drawable/email_box"
         android:padding="@dimen/_5sdp"
         app:layout_constraintTop_toBottomOf="@+id/etEmail"
+        android:layout_margin="@dimen/_15sdp"
         android:layout_marginTop="@dimen/_8sdp"/>
     <Button
         android:id="@+id/btnSignIn"
@@ -55,6 +61,7 @@
         android:text="@string/sign_in"
         android:textColor="@color/white"
         android:textAllCaps="false"
+        android:layout_margin="@dimen/_15sdp"
         android:textSize="@dimen/_12ssp"
         android:layout_marginTop="@dimen/_8sdp"/>
     <TextView
@@ -67,6 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_18sdp"/>
     <TextView
         android:layout_width="wrap_content"
@@ -76,6 +84,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:textSize="@dimen/_12ssp"
         android:layout_marginTop="@dimen/_8sdp"
+        android:layout_margin="@dimen/_15sdp"
         android:textColor="@color/black"/>
 
 

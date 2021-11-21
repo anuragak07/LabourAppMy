@@ -21,6 +21,9 @@ class UserAdapter(val context: Context,val userList:ArrayList<User>): RecyclerVi
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val currentUser = userList[position]
        holder.textName.text =currentUser.name
+        holder.textLocation.text=currentUser.location
+        holder.textOccupation.text=currentUser.occupation
+        holder.textCharges.text=currentUser.charges
         holder.itemView.setOnClickListener{
             val intent = Intent(context,ChatActivity::class.java)
             intent.putExtra("name",currentUser.name)
@@ -35,7 +38,10 @@ class UserAdapter(val context: Context,val userList:ArrayList<User>): RecyclerVi
 
     }
     class UserViewHolder(itemView:View):RecyclerView.ViewHolder(itemView){
-        val textName = itemView.findViewById<TextView>(R.id.txt_name)
+        val textName = itemView.findViewById<TextView>(R.id.tvlabname)
+        val textLocation = itemView.findViewById<TextView>(R.id.tvlabplace)
+        val textOccupation = itemView.findViewById<TextView>(R.id.tvlabtype)
+        val textCharges = itemView.findViewById<TextView>(R.id.tvchargesrs)
 
     }
 }

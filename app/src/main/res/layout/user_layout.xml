@@ -1,23 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_marginTop="5dp"
-            android:id="@+id/txt_name"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/labourrel">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvcard2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Anurag"
-            android:textSize="@dimen/_30ssp"
-            android:textStyle="bold"
-            android:layout_marginLeft="@dimen/_10sdp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_marginTop="5dp"
-            android:layout_height="@dimen/_1sdp"
-            android:layout_below="@+id/txt_name"
-            android:background="@color/black"/>
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp">
 
+                <RelativeLayout
+                    android:id="@+id/homerel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/civcircle2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/profile_demo"
+                            android:layout_marginBottom="10dp" />
+
+                        <TextView
+                            android:id="@+id/tvlabname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_toRightOf="@+id/civcircle2"
+                            android:text="name of person"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvlabplace"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvlabname"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/civcircle2"
+                            android:text="Place"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvskills"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/civcircle2"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="Charges - "
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvlabtype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/civcircle2"
+                            android:layout_marginTop="15dp"
+                            android:layout_toRightOf="@+id/tvskills"
+                            android:text="jsdhjsdah"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3 km away"
+                            android:textColor="@color/purple_200"
+                            android:layout_alignParentEnd="true"
+                            android:layout_below="@+id/tvlabtype"
+                            android:id="@+id/tvdistancelab"
+                            android:layout_margin="10dp"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:id="@+id/tvcharges"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvskills"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="Skills - "
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvchargesrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvskills"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_toRightOf="@+id/tvcharges"
+                            android:text="Charges- "
+                            android:textColor="#bd1704"
+                            android:textSize="15sp" />
+
+                </RelativeLayout>
+        </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
