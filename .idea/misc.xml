@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/button_shape.xml" value="0.2324074074074074" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/email_box.xml" value="0.2324074074074074" />
+        <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.21666666666666667" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/ic_round_send_24.xml" value="0.2324074074074074" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/message_box.xml" value="0.2324074074074074" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/drawable/message_received.xml" value="0.2324074074074074" />
@@ -17,11 +19,13 @@
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/fragment_first.xml" value="0.25052083333333336" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/fragment_second.xml" value="0.25052083333333336" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/fragment_third.xml" value="0.25052083333333336" />
+        <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/receive.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/sent.xml" value="0.2" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/layout/user_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/menu/bottom_menu.xml" value="0.25052083333333336" />
         <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/menu/menu.xml" value="1.7428571428571429" />
+        <entry key="..\:/AndroidAppProject/LabourApp/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
